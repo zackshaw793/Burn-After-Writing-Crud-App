@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burn After Writing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container" id="mainBody">
+
+   <!-- <div class="jumbotron " id="title"> -->
+         
+  
+    <div class="container py-5 mb-4 mt-3 bg-dark rounded-3 ">
+        <div class="p-5 mb-4 lc-block">
+            <div class="lc-block">
+                <div class="titleText">
+                    <h2 class="fw-bolder display-3 text-light">Burn After <strong class="text-danger">Writing</strong></h2>
+                </div>
+            </div>
+            <div class="lc-block col-md-8">
+                <div class="siteSummary">
+                    <p class="lead text-light">Burn After Writing is a simple journaling experience. <strong class="text-danger">A place for your thoughts.</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 mb-4 bg-dark rounded-3 ">
+        <div class="p-5 mb-4 lc-block">
+            <div class="lc-block">
+                
+                <div class="form-group">
+                    <label for="thoughtInput"></label>
+                    <textarea class="form-control text-light bg-dark" id="thoughtInput" rows="5"></textarea>
+                  </div><br><br>
+                <button id="shareThought" class="btn btn-danger form-control">Share a thought.</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 mb-4 bg-dark rounded-3 ">
+        <div class="p-5 mb-4 lc-block">
+            <div class="lc-block">
+                <h2 class="fw-bolder display-6 text-light">Thought Catalogue</h2>
+               <div id="app">
+
+               </div>
+            </div>
+        </div>
+    </div>
+     
+     
+      
+    </div>
+    
+
+
+   <script src="./node_modules/jquery/dist/jquery.js"></script>
+   <script src="index.js"></script>
+   <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
