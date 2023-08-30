@@ -1,3 +1,11 @@
 #mainBody { 
-    background: rgb(18, 18, 22) !important;
+    background: rgb(36, 34, 35) !important;
 }
+
+.form-control:focus { 
+    background-color: rgb(77,78,89) !important;
+    box-shadow: rgb(200,10,10);
+    -webkit-box-shadow: rgb(250,5,5) !important;
+    outline: rgb(250,5,5) !important;
+}
+

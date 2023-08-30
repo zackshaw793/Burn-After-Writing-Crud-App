@@ -2,19 +2,15 @@
   "thoughts": [
     {
       "id": 1,
-      "thought": "Now to style it"
+      "thought": "Today is a great day!"
     },
     {
       "id": 2,
-      "thought": "It's working now"
+      "thought": "I want to prepend this thought."
     },
     {
       "id": 3,
       "thought": "Now to style it"
-    },
-    {
-      "id": 4,
-      "thought": "This is an update\n"
     }
   ]
 }

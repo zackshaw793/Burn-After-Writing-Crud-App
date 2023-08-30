@@ -19,19 +19,18 @@ function loadThoughts() {
         let thoughtBox = '';
         data.forEach(thought => { 
             thoughtBox += ` 
-                    <div class="p-5 mb-1 border-danger lc-block bg-dark rounded-3">
-                        <div class="lc-block bg-dark">
-                            <!--<p class="text-dark">${thought.id}</p>-->
-                            <p class="text-light p-2 overflow-auto">${thought.thought}</p>
-                            <div class="text-right bg-dark">
-                                <div class="d-grid gap-2 d-md-flex justify-content-md-end p-3">
-                                <button class="btn btn-warning me-md-2" onclick="editThought(${thought.id})">Ruminate</button>
-                                <button class="btn btn-danger" onclick="deleteThought(${thought.id})">Burn</button>
-                                </div>
-                            </div>
-                        </div>
+            <span class="border-bottom border-danger rounded-3">
+            <div class="container py-5 mb-4 bg-dark rounded-3 ">
+                    <p class="text-light p-2 overflow-auto">${thought.thought}</p>
+                    <div class="text-right bg-dark">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end p-3">
+                            <button class="btn btn-secondary me-md-2" onclick="editThought(${thought.id})">Ruminate</button>
+                            <button class="btn btn-danger" onclick="deleteThought(${thought.id})">Burn</button>
                         </div>
                     </div>
+                   </div>
+        </div>
+        </span>
     
             
             `;
@@ -86,5 +85,5 @@ function deleteThought (id) {
 
 function resetForm() { 
     $('#thoughtId').val('');
-    $('#thought').val('');
+    $('#thoughtInput').val('');
 }
