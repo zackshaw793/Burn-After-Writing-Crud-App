@@ -31,28 +31,30 @@
     <div class="container py-5 mb-4 bg-dark rounded-3 ">
         <div class="p-5 mb-4 lc-block">
             <div class="lc-block">
-                
+               <form id="thoughtForm"> 
                 <div class="form-group">
+                    <input type="hidden" id="thoughtId"/>
                     <label for="thoughtInput"></label>
                     <textarea class="form-control text-light bg-dark" id="thoughtInput" rows="5"></textarea>
                   </div><br><br>
-                <button id="shareThought" class="btn btn-danger form-control">Share a thought.</a>
+                <button type="submit" class="btn btn-danger form-control">Share a thought.</button>
             </div>
+        </form> 
         </div>
     </div>
 
     <div class="container py-5 mb-4 bg-dark rounded-3 ">
         <div class="p-5 mb-4 lc-block">
-            <div class="lc-block">
-                <h2 class="fw-bolder display-6 text-light">Thought Catalogue</h2>
-               <div id="app">
+            <div class="lc-block bg-dark">
+                <h2 class="fw-bolder display-6 text-center text-light p-5">Thought Catalogue</h2>
+               <div class="card mt-2 mb-1" id="thoughtCatalogue">
 
                </div>
             </div>
         </div>
     </div>
      
-     
+   
       
     </div>
     
