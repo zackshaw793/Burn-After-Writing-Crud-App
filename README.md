@@ -1,6 +1,6 @@
-Burn after writing is a crud application that uses a mock json server to store data.
+Burn after writing is a crud application that uses a mock json server to store data. When the repo is cloned you will have to run the server with the CLI.
 
-The information and documentation on the server can be found here.
+The documentation on the server can be found here.
 https://github.com/typicode/json-server
 
 The project is meant to be a journaling application that will eventually post a prompt to users each day, after
